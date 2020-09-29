@@ -1,0 +1,24 @@
+.container{
+    max-height: 100vh;
+    overflow-y: hidden;
+    .messsage{
+       position: fixed;
+       bottom: 2%; 
+       right: 2%;
+       background: white;
+       box-shadow: 5px 5px 15px grey;
+       padding:12px 12px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 60px;
+       border: 1px solid transparent;
+    }
+    .main-content{
+        z-index: 66;
+        background: #e4e6eb;
+        display: flex;
+        justify-content: space-between;
+}
+}
+

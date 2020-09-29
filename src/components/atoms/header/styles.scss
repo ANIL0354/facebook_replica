@@ -1,0 +1,17 @@
+.header-container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999999;
+    width: 100vw;
+    background-color: white;
+    // top: 0;
+    .search{
+        flex-direction: row;
+        display: flex;
+    }
+    box-shadow: 10px 0px 5px grey;
+}
+
